@@ -90,4 +90,7 @@ spec:
           env:
             - name: REDIS
               value: "azure-vote-back"
+      imagePullSecrets:
+        - name: regcred
+
 
