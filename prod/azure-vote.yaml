@@ -77,7 +77,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
         - name: azure-vote-front
-          image: bedrockhack.azurecr.io/bedrockhack:94
+          image: bedrockhack.azurecr.io/bedrockhack:99
           resources:
             requests:
               cpu: 100m
